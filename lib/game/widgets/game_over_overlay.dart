@@ -1,6 +1,4 @@
-// Copyright 2022 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+
 
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +6,7 @@ import 'package:flutter/material.dart';
 import '../doodle_dash.dart';
 import 'widgets.dart';
 
-// Overlay that pops up when the game ends
+
 class GameOverOverlay extends StatelessWidget {
   const GameOverOverlay(this.game, {super.key});
 
